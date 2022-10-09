@@ -13,7 +13,7 @@ public interface IJournalService {
      * Save a new Journal Entry
      * @param journalEntry the entry to save.
      */
-    void save(JournalEntry journalEntry);
+    JournalEntry save(JournalEntry journalEntry);
 
     /**
      * Return all journal entries.
